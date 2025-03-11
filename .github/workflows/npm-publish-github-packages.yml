@@ -19,7 +19,7 @@ jobs:
         password: admin@2025
         port: 222
         script: |
-          cd ~/demogit
+          cd ~/root/demogit
           git pull
           git status
           yarn
