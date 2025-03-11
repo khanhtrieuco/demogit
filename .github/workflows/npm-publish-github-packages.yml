@@ -19,7 +19,7 @@ jobs:
         password: admin@2025
         port: 222
         script: |
-          cd ~/root/demogit
+          cd ~/demogit
           git pull
           git status
           docker-compose up
