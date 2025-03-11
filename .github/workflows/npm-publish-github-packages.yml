@@ -22,5 +22,4 @@ jobs:
           cd ~/root/demogit
           git pull
           git status
-          yarn
-          yarn develop
+          docker-compose up
