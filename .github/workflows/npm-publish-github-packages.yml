@@ -19,8 +19,8 @@ jobs:
         password: admin@2025
         port: 222
         script: |
-          cd ~/home/danielwetan/apps/node1
-          git pull origin master
+          cd ~/demogit
+          git pull
           git status
           yarn
           yarn develop
